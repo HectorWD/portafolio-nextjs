@@ -16,12 +16,12 @@ const Contact = () => {
                     {/* Left */}
                     <div className='w-full h-full col-span-3 p-4 shadow-xl lg:col-span-2 shadow-gray-400 rounded-xl'>
                         <div className='h-full lg:p-4'>
-                            <img className='duration-300 ease-in rounded-xl hover:scale-105' src='https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80' />
+                            <img className='duration-300 ease-in rounded-xl hover:scale-105' src={`https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80`} />
 
                             <div>
                                 <h2 className='py-2'>Hector Wong</h2>
                                 <p>Front-End Developer</p>
-                                <p className='py-4'>I am available for freelance or full-time positions. Contact me and let's talk.</p>
+                                <p className='py-4'>I am available for freelance or full-time positions. Contact me and let is talk.</p>
                             </div>
                             <div className='py-4 '>
                                 <p className='pt-8 uppercase'>Contact With Me</p>
