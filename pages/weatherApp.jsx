@@ -19,10 +19,10 @@ const weatherApp = () => {
               Users are able to search the weather information of any city, all generated thanks by the Weather Api
 
             </p>
-            <a href='https://weather-app-nextjs-857a4n5ok-hectorwd.vercel.app' target='_blank'>
+            <a href='https://weather-app-nextjs-857a4n5ok-hectorwd.vercel.app' target='_new'>
               <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
             </a>
-            <a href='https://github.com/HectorWD/weather-app' target='_blank'>
+            <a href='https://github.com/HectorWD/weather-app' target='_new'>
               <button className='px-8 py-2 mt-4'>Code</button>
             </a>
 

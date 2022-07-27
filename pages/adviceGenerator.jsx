@@ -18,10 +18,10 @@ const adviceGenerator = () => {
             <p>This app was built using Next JS and is hosted on Vercel.
               Users are able to find all type of advice this is generate by Advice API.
             </p>
-            <a href='https://advice-generator-ashen-nine.vercel.app' target={'_blank'}>
+            <a href='https://advice-generator-ashen-nine.vercel.app' target={'_new'}>
               <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
             </a>
-            <a href='https://github.com/HectorWD/Advice-generator' target={'_blank'}>
+            <a href='https://github.com/HectorWD/Advice-generator' target={'_new'}>
             <button className='px-8 py-2 mt-4'>Code</button>
             </a>
           </div>

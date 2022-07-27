@@ -22,10 +22,10 @@ const netflixClone = () => {
               create your own account section with your favorites movies, all this saved in firestore.
 
             </p>
-            <a href='https://netflix-clone-psi-seven.vercel.app' target='_blank'>
+            <a href='https://netflix-clone-psi-seven.vercel.app' target='_new'>
               <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
             </a>
-            <a href='https://github.com/HectorWD/Netflix-clone' target='_blank'>
+            <a href='https://github.com/HectorWD/Netflix-clone' target='_new'>
               <button className='px-8 py-2 mt-4'>Code</button>
             </a>
 
