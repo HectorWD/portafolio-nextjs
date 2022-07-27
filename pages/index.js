@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Hector Wong - Portfolio</title>
         <meta name="Hector Wong Portfolio" content="about HectorWong" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

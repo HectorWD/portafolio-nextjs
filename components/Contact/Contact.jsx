@@ -35,7 +35,7 @@ const Contact = () => {
                         </div>
                     </div>
                     {/* Right */}
-                    <div className='w-full h-auto col-span-3 shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
+                    {/* <div className='w-full h-auto col-span-3 shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                         <div className='p-4'>
                             <form>
                                 <div className='grid w-full gap-4 py-2 md:grid-cols-2'>
@@ -77,7 +77,7 @@ const Contact = () => {
                                 <button className='w-full p-4 mt-4 text-gray-100'>Send Message</button>
                             </form>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 {/*Icon to up */}
                 <div className='flex justify-center py-12'>

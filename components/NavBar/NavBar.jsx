@@ -15,7 +15,11 @@ const NavBar = () => {
     const [linkColor, setLinkColor] = useState('#1f2937')
     const router= useRouter()
     useEffect(() => {
-        if(router.asPath==='/rickAndMorty'){
+        if(
+            router.asPath ==='/rickAndMorty' || 
+            router.asPath ==='/netflixClone' || 
+            router.asPath ==='/adviceGenerator' ||
+            router.asPath === '/weatherApp'){
             setNavbg('transparent')
             setLinkColor('#ecf0f3')
         }else{
@@ -50,6 +54,7 @@ const NavBar = () => {
                     <Image
                         src='/assets/img/logo.png' alt='/'
                         width='100' height='100'
+                        className='cursor-pointer '
                     />
                 </Link>
                 <div>

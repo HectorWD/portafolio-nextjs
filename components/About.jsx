@@ -5,14 +5,17 @@ const About = () => {
     <div id='about' className='flex items-center w-full p-2 py-16 md:h-screen'>
         <div className=' max-w-[1240px] m-auto md:grid grid-cols-3 gap-8  '>
             <div className='col-span-2 '>
-                <p className='text-xl tracking-widest uppercase text-[#5651e5] '>About</p>
-                <h2 className='py-4'>Who I Am</h2>
+                <p className='text-2xl tracking-widest uppercase text-[#5651e5] '>About me</p>
+                <h2 className='py-4'>Who I Am?</h2>
                 <p className='py-2 text-gray-600'>I am not you normal developer</p>
                 <p className='py-2 text-gray-600'>
-                    Mi descripcion personal, Mi descripcion personal, Mi descripcion personal, Mi descripcion personal, Mi descripcion personal,v,v, Mi descripcion personal, Mi descripcion personal, Mi descripcion personal
+                    I have spent the last 4 years studying in my university in the career of Software Enginering.
+                    I have always had knack for technology and working computers.
                 </p>
                 <p className='py-2 text-gray-600'>
-                    Cosas que actualmente hago y tecnologias que utilizo, Mi descripcion personal, Mi descripcion personal, Mi descripcion personal, Mi descripcion personal, Mi descripcion personal
+                   Fascinated with how intricate programming can be I was quick drawn to learn more.
+                   I started learning Javascript, css and html and was even more enthused with making websites interactive and responsive for any divices.
+                   I am now spending my time building projects with React JS, Firebase, and learning new technologies and applying increasingly better development practices. 
                 </p>
                 <p className='py-2 text-gray-500 underline cursor-pointer'>Check put some of my latest proyects.</p>
             </div>

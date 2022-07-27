@@ -1,28 +1,27 @@
-import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import rickAndMortyImage from '../public/assets/projects/RickMorty.png'
+import React from 'react'
 import SkillProyect from '../components/Projects/Structure/SkillProyect'
+import Advice from '../public/assets/projects/advice.PNG'
 
-const rickAndMorty = () => {
+const adviceGenerator = () => {
   return (
     <div className='w-full'>
-      <div className='w-screen h-[30vh] lg:h-[40vh] relative '>
-        <div className='absolute top-0 left-0 w-full bg-black/40 h-[30vh] lg:h-[40vh] z-10' />
-        <Image src={rickAndMortyImage} className='absolute z-1' layout='fill' objectFit='cover' alt='/' />
-
+      <div className='w-screen h-[40vh] lg:h-[50vh] relative '>
+        <div className='absolute top-0 left-0 w-full bg-black/40 h-[40vh] lg:h-[50vh] z-10' />
+        <Image src={Advice} className='absolute z-1' layout='fill' objectFit='cover' alt='/' />
       </div>
       <div>
         <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8 '>
           <div className='col-span-4'>
-            <p className='text-xl font-bold text-[#72abec] pb-2 '>Rick and Morty App</p>
+            <p className='text-xl font-bold text-[#3F3047] pb-2'>Advice Generator</p>
             <p>This app was built using Next JS and is hosted on Vercel.
-              Users are able to find all the information about of characters of the serie Rick and Morty thanks a RickAndMorty API
+              Users are able to find all type of advice this is generate by Advice API.
             </p>
-            <a href='https://rick-and-morty-nu-fawn.vercel.app' target={'_blank'}>
+            <a href='https://advice-generator-ashen-nine.vercel.app' target={'_blank'}>
               <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
             </a>
-            <a href='https://github.com/HectorWD/Rick-and-Morty' target={'_blank'}>
+            <a href='https://github.com/HectorWD/Advice-generator' target={'_blank'}>
             <button className='px-8 py-2 mt-4'>Code</button>
             </a>
           </div>
@@ -33,7 +32,7 @@ const rickAndMorty = () => {
                 <SkillProyect title='React' />
                 <SkillProyect title='Tailwind' />
                 <SkillProyect title='Next JS' />
-                <SkillProyect title='RickAndMorty API' />
+                <SkillProyect title='Advice API' />
               </div>
             </div>
           </div>
@@ -47,4 +46,4 @@ const rickAndMorty = () => {
   )
 }
 
-export default rickAndMorty
+export default adviceGenerator
